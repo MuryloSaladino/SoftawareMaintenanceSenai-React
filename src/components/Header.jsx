@@ -1,9 +1,7 @@
 import { AppBar, Box, Button, Typography } from "@mui/material"
-import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
-
-    const [value, setValue] = useState(0)
 
     const appBarStyle = { 
         display: "flex", 
@@ -11,7 +9,8 @@ const Header = () => {
         alignItems: "center", 
         padding: "10px 20px", 
         justifyContent: "space-between",
-        flexWrap: "wrap"
+        flexWrap: "wrap",
+        width: "100%"
     }
 
     return (
@@ -19,9 +18,15 @@ const Header = () => {
         <AppBar color="primary" style={appBarStyle}>
             <Typography variant="h4">Exercícios de Manutenção</Typography>
             <Box style={{ display: "flex", gap: 15 }}>
-                <Button color="secondary" variant="contained">Produtos</Button>
-                <Button color="secondary" variant="contained">API</Button>
-                <Button color="secondary" variant="contained">Mapa</Button>
+                <Link to="/products">
+                    <Button color="secondary" variant="contained">Produtos</Button>
+                </Link>
+                <Link to="/rickandmorty">
+                    <Button color="secondary" variant="contained">API</Button>
+                </Link>
+                <Link to="/map">
+                    <Button color="secondary" variant="contained">Mapa</Button>
+                </Link>
             </Box>
         </AppBar>
     )
