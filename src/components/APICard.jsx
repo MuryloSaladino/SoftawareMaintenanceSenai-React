@@ -1,5 +1,4 @@
-/* eslint-disable react/prop-types */
-export const Card = (props) => {
+const APICard = ({name, status, species, type, gender, image}) => {
   return(
       <div>
           <h1>{props.name}</h1>
@@ -9,3 +8,5 @@ export const Card = (props) => {
       </div>
   )
 }
+
+export default APICard

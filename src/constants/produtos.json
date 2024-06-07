@@ -1,16 +1,47 @@
 [
   {
     "id": 1,
-    "name": "Perfume",
-    "desc": "Miguel Rousseouf",
-    "value": "100.00",
-    "image": "https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/volarium/catalog/produtos/volarium/perfume/perfume-feminino/perfume-feminino-ch-tradicional-importado-original.jpg"
+    "name": "Far Cry",
+    "description": "Far Cry é um jogo de tiro em primeira pessoa de 2004 desenvolvido pela Crytek e publicado pela Ubisoft. É o primeiro título da franquia Far Cry",
+    "price": "100.00",
+    "image": "https://upload.wikimedia.org/wikipedia/pt/9/91/FarCry-Cover.jpg",
+    "category": "Game",
+    "status": false
   },
   {
     "id": 2,
-    "name": "Colar",
-    "desc": "Jand Karno em perolas",
-    "value": "2200.00",
-    "image": "https://cdn.awsli.com.br/600x450/1537/1537341/produto/152389745/01e29e7fcc.jpg"
+    "name": "Far Cry 2",
+    "description": "Far Cry 2 é um jogo de tiro em primeira pessoa desenvolvido pela Ubisoft Montreal e publicado pela Ubisoft",
+    "price": "200.00",
+    "image": "https://m.media-amazon.com/images/M/MV5BZTAzNWU5YmMtMTgyMi00YzhhLTlkYzQtYWM0ZWNlZTVkNTI1XkEyXkFqcGdeQXVyNzg3NjQyOQ@@._V1_FMjpg_UX1000_.jpg",
+    "category": "Game",
+    "status": false
+  },
+  {
+    "id": 3,
+    "name": "Far Cry 3",
+    "description": "Far Cry 3 é um jogo eletrônico de tiro em primeira pessoa e mundo aberto de 2012 desenvolvido pela Ubisoft Montreal e publicado pela Ubisoft para PlayStation 3, Xbox 360 e Microsoft Windows",
+    "price": "300.00",
+    "image": "https://upload.wikimedia.org/wikipedia/pt/5/59/Far_cry_3_box_art.jpg",
+    "category": "Game",
+    "status": true
+  },
+  {
+    "id": 4,
+    "name": "Far Cry 4",
+    "description": "Far Cry 4 é um jogo eletrônico de tiro em primeira pessoa jogado em mundo aberto que foi produzido pela Ubisoft Montreal juntamente com a Ubisoft Red Storm, a Ubisoft Toronto, a Ubisoft Shanghai e a Ubisoft Kiev",
+    "price": "400.00",
+    "image": "https://m.media-amazon.com/images/I/71g7C4CJRlL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Game",
+    "status": true
+  },
+  {
+    "id": 5,
+    "name": "Far Cry Primal",
+    "description": "Far Cry Primal é um videojogo de ação-aventura na primeira pessoa desenvolvido pela Ubisoft Montreal com a assistência de Ubisoft Toronto, Ubisoft Kiev e Ubisoft Shanghai e publicado pela Ubisoft",
+    "price": "500.00",
+    "image": "https://m.media-amazon.com/images/I/81i+upzlXkL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Game",
+    "status": true
   }
 ]
