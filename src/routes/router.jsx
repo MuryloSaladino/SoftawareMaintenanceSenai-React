@@ -1,6 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom'
 import App from '../App'
-import RedirectComponent from '../components/RedirectComponent'
 import ProductsPage from '../pages/ProductsPage'
 import RickAndMortyPage from '../pages/RickAndMortyPage'
 import MapPage from '../pages/MapPage'
@@ -8,11 +7,7 @@ import MapPage from '../pages/MapPage'
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <App/>,
-    },
-    {
-        path: "*",
-        element: <RedirectComponent/>,
+        element: <App><ProductsPage/></App>,
     },
     {
         path: "/products",
