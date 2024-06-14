@@ -1,4 +1,5 @@
-import { Box, Card, CardContent, CardHeader, CardMedia, Typography } from "@mui/material"
+import { Accordion, AccordionDetails, AccordionSummary, Box, Card, CardContent, CardHeader, CardMedia, Stack, Typography } from "@mui/material"
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const ProductCard = ({ name, description, price, image, category, status }) => {
 
@@ -23,13 +24,24 @@ const ProductCard = ({ name, description, price, image, category, status }) => {
             <CardMedia
                 component="img"
                 image={image}
+                sx={{ height: 500, transition: "0.3s", "&:hover": { transform: "scale(1.05)" } }}
             />
             <CardContent>
-                <Box style={{ display: "flex", justifyContent: "space-between" }}>
-                    <Typography variant="h6">R$ {price.replace(".", ",")}</Typography>
-                    <Typography variant="h6">{category}</Typography>
-                </Box>
-                <Typography>{description}</Typography>
+                <Stack flexDirection="column" gap={2}>
+                    <Box style={{ display: "flex", justifyContent: "space-between" }}>
+                        <Typography variant="h6">R$ {price.replace(".", ",")}</Typography>
+                        <Typography variant="h6">{category}</Typography>
+                    </Box>
+                    <Accordion>
+                        <AccordionSummary
+                            expandIcon={<ExpandMoreIcon/>}
+                            id={name}
+                        >
+                            Descrição
+                        </AccordionSummary>
+                        <AccordionDetails>{description}</AccordionDetails>
+                    </Accordion>
+                </Stack>
             </CardContent>
         </Card>
     )
