@@ -1,0 +1,40 @@
+[
+    {
+    },
+    {
+        "generation": "I",
+        "numberOfPokemon": 151
+    },
+    {
+        "generation": "II",
+        "numberOfPokemon": 100
+    },
+    {
+        "generation": "III",
+        "numberOfPokemon": 135
+    },
+    {
+        "generation": "IV",
+        "numberOfPokemon": 107
+    },
+    {
+        "generation": "V",
+        "numberOfPokemon": 156
+    },
+    {
+        "generation": "VI",
+        "numberOfPokemon": 72
+    },
+    {
+        "generation": "VII",
+        "numberOfPokemon": 88
+    },
+    {
+        "generation": "VIII",
+        "numberOfPokemon": 96
+    },
+    {
+        "generation": "IX",
+        "numberOfPokemon": 120
+    }
+]

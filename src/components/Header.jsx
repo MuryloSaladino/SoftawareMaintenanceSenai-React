@@ -27,6 +27,9 @@ const Header = () => {
                 <Link to="/map">
                     <Button color="secondary" variant="contained">Mapa</Button>
                 </Link>
+                <Link to="/charts">
+                    <Button color="secondary" variant="contained">Gráficos</Button>
+                </Link>
             </Box>
         </AppBar>
     )

@@ -1,0 +1,75 @@
+[
+    {
+        "type": "Normal",
+        "numberOfPokemon": 132,
+        "color": "#f0f0f0"
+    },
+    {
+        "type": "Fire",
+        "numberOfPokemon": 86
+    },
+    {
+        "type": "Water",
+        "numberOfPokemon": 157
+    },
+    {
+        "type": "Grass",
+        "numberOfPokemon": 124
+    },
+    {
+        "type": "Rock",
+        "numberOfPokemon": 76
+    },
+    {
+        "type": "Fighting",
+        "numberOfPokemon": 82
+    },
+    {
+        "type": "Psychic",
+        "numberOfPokemon": 105
+    },
+    {
+        "type": "Ghost",
+        "numberOfPokemon": 70
+    },
+    {
+        "type": "Bug",
+        "numberOfPokemon": 92
+    },
+    {
+        "type": "Poison",
+        "numberOfPokemon": 83
+    },
+    {
+        "type": "Flying",
+        "numberOfPokemon": 112
+    },
+    {
+        "type": "Electric",
+        "numberOfPokemon": 72
+    },
+    {
+        "type": "Ground",
+        "numberOfPokemon": 77
+    },
+    {
+        "type": "Ice",
+        "numberOfPokemon": 58
+    },
+    {
+        "type": "Dragon",
+        "numberOfPokemon": 69
+    },
+    {
+        "type": "Dark",
+        "numberOfPokemon": 83
+    },
+    {
+        "type": "Steel",
+        "numberOfPokemon": 75
+    },
+    {
+        "type": "Fairy",
+        "numberOfPokemon": 69
+    }
+]
