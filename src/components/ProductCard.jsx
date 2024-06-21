@@ -37,9 +37,13 @@ const ProductCard = ({ name, description, price, image, category, status }) => {
                             expandIcon={<ExpandMoreIcon/>}
                             id={name}
                         >
-                            Descrição
+                            <Typography variant="h6">Detalhes</Typography>
                         </AccordionSummary>
-                        <AccordionDetails>{description}</AccordionDetails>
+                        <AccordionDetails>
+                            <Typography>
+                                {description}
+                            </Typography>
+                        </AccordionDetails>
                     </Accordion>
                 </Stack>
             </CardContent>
