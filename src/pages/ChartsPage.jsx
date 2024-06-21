@@ -9,10 +9,10 @@ const ChartsPage = () => {
     return(
         <Fragment>
             <Container>
-                <Grid container spacing={3}>
+                <Grid container spacing={10}>
 
-                    <Grid item  xs={12} sm={12} md={12} lg={6} xl={6}>
-                        <Stack alignItems="center" gap={2}>
+                    <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+                        <Stack gap={2} sx={{ overflowX: "auto", overflowY: "hidden" }}>
                             <Typography variant="h5">Número de Pokemons por Geração</Typography>
                             <LineChart width={800} height={300} data={generationsData}>
                                 <Line type="monotone" dataKey="numberOfPokemon" stroke="#8884d8" />
@@ -23,8 +23,8 @@ const ChartsPage = () => {
                             </LineChart>
                         </Stack>
                     </Grid>
-                    <Grid item  xs={12} sm={12} md={12} lg={6} xl={6}>
-                        <Stack alignItems="center" gap={2}>
+                    <Grid item xs={12} sm={12} md={12} lg={12} xl={12} sx={{ overflowX: "auto", overflowY: "hidden" }}>
+                        <Stack gap={2}>
                             <Typography variant="h5">Número de Pokemons por Tipo</Typography>
                             <BarChart width={800} height={300} data={typesData}>
                                 <Bar dataKey="numberOfPokemon" stroke="#000000" strokeWidth={0.2}>
