@@ -2,74 +2,91 @@
     {
         "type": "Normal",
         "numberOfPokemon": 132,
-        "color": "#f0f0f0"
+        "color": "#EEE5E3"
     },
     {
         "type": "Fire",
-        "numberOfPokemon": 86
+        "numberOfPokemon": 86,
+        "color": "#E73914"
     },
     {
         "type": "Water",
-        "numberOfPokemon": 157
+        "numberOfPokemon": 157,
+        "color": "#6FDDFB"
     },
     {
         "type": "Grass",
-        "numberOfPokemon": 124
+        "numberOfPokemon": 124,
+        "color": "#4FE238"
     },
     {
         "type": "Rock",
-        "numberOfPokemon": 76
+        "numberOfPokemon": 76,
+        "color": "#4E544D"
     },
     {
         "type": "Fighting",
-        "numberOfPokemon": 82
+        "numberOfPokemon": 82,
+        "color": "#8F0505"
     },
     {
         "type": "Psychic",
-        "numberOfPokemon": 105
+        "numberOfPokemon": 105,
+        "color": "#FB33F7"
     },
     {
         "type": "Ghost",
-        "numberOfPokemon": 70
+        "numberOfPokemon": 70,
+        "color": "#201D20"
     },
     {
         "type": "Bug",
-        "numberOfPokemon": 92
+        "numberOfPokemon": 92,
+        "color": "#ACE520"
     },
     {
         "type": "Poison",
-        "numberOfPokemon": 83
+        "numberOfPokemon": 83,
+        "color": "#AF12E7"
     },
     {
         "type": "Flying",
-        "numberOfPokemon": 112
+        "numberOfPokemon": 112,
+        "color": "#CFC6D2"
     },
     {
         "type": "Electric",
-        "numberOfPokemon": 72
+        "numberOfPokemon": 72,
+        "color": "#EEE821"
     },
     {
         "type": "Ground",
-        "numberOfPokemon": 77
+        "numberOfPokemon": 77,
+        "color": "#EEA221"
     },
     {
         "type": "Ice",
-        "numberOfPokemon": 58
+        "numberOfPokemon": 58,
+        "color": "#2DEFE8"
     },
     {
         "type": "Dragon",
-        "numberOfPokemon": 69
+        "numberOfPokemon": 69,
+        "color": "#862DEF"
     },
     {
         "type": "Dark",
-        "numberOfPokemon": 83
+        "numberOfPokemon": 83,
+        "color": "#351B54"
     },
     {
         "type": "Steel",
-        "numberOfPokemon": 75
+        "numberOfPokemon": 75,
+        "color": "#827F85"
     },
     {
         "type": "Fairy",
-        "numberOfPokemon": 69
+        "numberOfPokemon": 69,
+        "color": "#C87EC8"
     }
 ]
